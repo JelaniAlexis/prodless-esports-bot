@@ -5,8 +5,8 @@ const command: ClientCommand = {
     data: new SlashCommandBuilder()
     .setName('ping')
     .setDescription('Replies with pong.'),
-    execute: (message, args) => {
-        message.reply("hi");
+    execute: (interaction) => {
+        interaction.reply("hi");
     },  
 }
 
