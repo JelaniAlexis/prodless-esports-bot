@@ -1,4 +1,4 @@
-import { Client, ClientEvents, Collection } from "discord.js";
+import { Client, ClientEvents } from "discord.js";
 import { getCommands, getEvents, globalCommands } from "./utils";
 import 'dotenv/config';
 

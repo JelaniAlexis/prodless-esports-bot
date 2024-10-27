@@ -1,4 +1,4 @@
-import { ActionRowBuilder, ChannelSelectMenuBuilder, MentionableSelectMenuBuilder, TextChannel } from "discord.js";
+import { ChatInputCommandInteraction } from "discord.js";
 import { ClientEvent } from "../types";
 import { getInteractionTypes } from "../utils";
 
@@ -9,9 +9,8 @@ const event: ClientEvent<"interactionCreate"> = {
         
         for (let i = 0; i < interactionTypes.length; i++) {
             const interactionType = interactionTypes[i];
-            console.log(interactionType)
             if (interactionType.condition(interaction)) {
-                interactionType.callback(interaction);
+                interactionType.callback(interaction as ChatInputCommandInteraction);
                 break;
             }
         }

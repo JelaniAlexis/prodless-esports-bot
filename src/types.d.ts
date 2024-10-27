@@ -19,3 +19,11 @@ type ClientInteraction = {
     condition: (interaction: ClientInteractionType) => boolean
     callback: (interaction: ClientInteractionType) => void
 }
+
+type Resource = {
+    name: string
+    url?: string
+    purpose: string
+    note?: string
+    emoji: string
+}

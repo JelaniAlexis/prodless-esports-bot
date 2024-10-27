@@ -1,0 +1,38 @@
+[
+    {
+        "name": "ValoPlant",
+        "url": "https://valoplant.gg/",
+        "purpose": "For strategizing effectively",
+        "emoji": "<:valoplant:1300060403132403722>"
+    },
+    {
+        "name": "Challengermode",
+        "url": "https://www.challengermode.com/valorant",
+        "purpose": "To find local tournaments",
+        "emoji": "<:challengermode:1300063233042026516>"
+    },
+    {
+        "name": "Aimlabs - Voltaic Valorant RAMP Warmup",
+        "url": "https://bit.ly/ValorantRamp",
+        "purpose": "For warming up effectively",
+        "emoji": "<:voltaic:1300061063609581620>"
+    },
+    {
+        "name": "Aimlabs - Voltaic Valorant specific routine",
+        "url": "https://bit.ly/VTxALvalorant",
+        "purpose": "For effective aim training, directed towards improvement in Valorant",
+        "emoji": "<:voltaic:1300061063609581620>"
+    },
+    {
+        "name": "OBS Studio",
+        "url": "https://obsproject.com",
+        "purpose": "To record your screen",
+        "emoji": "<:obs:1300061328076967966>"
+    },
+    {
+        "name": "Xbox Game Bar",
+        "purpose": "To record your screen on a low end PC",
+        "note": "Press Windows + G to start recording. Allegedly may cause WiFi issues, use with caution.",
+        "emoji": "<:xbox_game_bar:1300062051628224522>"
+    }
+]
