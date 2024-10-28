@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Tiwaly",
+        "discordId": "603609062281707532",
+        "riotId": "PRL Tiwaly#PRL",
+        "active": true,
+        "rank": 12,
+        "roles": [5, 4],
+        "agents": [12]
+    },
+    {
+        "id": 2,
+        "name": "zDoggo",
+        "discordId": "1050799625625415740",
+        "riotId": "PRL zDoggo#12345",
+        "active": true,
+        "rank": 12,
+        "roles": [3],
+        "agents": [5]
+    },
+    {
+        "id": 3,
+        "name": "RoyRaven",
+        "discordId": "615939608802230272",
+        "riotId": "RoyRaven#Smíða",
+        "active": true,
+        "rank": 7,
+        "roles": [2],
+        "agents": [19]
+    },
+    {
+        "id": 4,
+        "name": "Ant",
+        "discordId": "943912825611489371",
+        "riotId": "PRL Ant#PRL",
+        "active": true,
+        "rank": 13,
+        "roles": [1],
+        "agents": [4]
+    },
+    {
+        "id": 5,
+        "name": "orange",
+        "discordId": "1032307460846927892",
+        "riotId": "Der Aimlab Bär#Bär",
+        "active": true,
+        "rank": 20,
+        "roles": [2],
+        "agents": [16]
+    }
+]

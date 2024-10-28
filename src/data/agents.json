@@ -1,0 +1,127 @@
+[
+    {
+        "id": 1,
+        "name": "Breach",
+        "role": "Initiator"
+    },
+    {
+        "id": 2,
+        "name": "Brimstone",
+        "role": "Controller"
+    },
+    {
+        "id": 3,
+        "name": "Cypher",
+        "role": "Sentinel"
+    },
+    {
+        "id": 4,
+        "name": "Jett",
+        "role": "Duelist"
+    },
+    {
+        "id": 5,
+        "name": "Omen",
+        "role": "Controller"
+    },
+    {
+        "id": 6,
+        "name": "Phoenix",
+        "role": "Duelist"
+    },
+    {
+        "id": 7,
+        "name": "Raze",
+        "role": "Duelist"
+    },
+    {
+        "id": 8,
+        "name": "Sage",
+        "role": "Sentinel"
+    },
+    {
+        "id": 9,
+        "name": "Sova",
+        "role": "Initiator"
+    },
+    {
+        "id": 10,
+        "name": "Viper",
+        "role": "Controller"
+    },
+    {
+        "id": 11,
+        "name": "Reyna",
+        "role": "Duelist"
+    },
+    {
+        "id": 12,
+        "name": "Killjoy",
+        "role": "Sentinel"
+    },
+    {
+        "id": 13,
+        "name": "Skye",
+        "role": "Initiator"
+    },
+    {
+        "id": 14,
+        "name": "Yoru",
+        "role": "Duelist"
+    },
+    {
+        "id": 15,
+        "name": "Astra",
+        "role": "Controller"
+    },
+    {
+        "id": 16,
+        "name": "KAY/O",
+        "role": "Controller"
+    },
+    {
+        "id": 17,
+        "name": "Chamber",
+        "role": "Sentinel"
+    },
+    {
+        "id": 18,
+        "name": "Neon",
+        "role": "Duelist"
+    },
+    {
+        "id": 19,
+        "name": "Fade",
+        "role": "Initiator"
+    },
+    {
+        "id": 20,
+        "name": "Harbor",
+        "role": "Controller"
+    },
+    {
+        "id": 21,
+        "name": "Gekko",
+        "role": "Initiator"
+    },
+    {
+        "id": 22,
+        "name": "Deadlock",
+        "role": "Sentinel"
+    },
+    {
+        "id": 23,
+        "name": "Iso",
+        "role": "Duelist"
+    },
+    {
+        "id": 24,
+        "name": "Clove",
+        "role": "Controller"
+    },
+    {
+        "id": 25,
+        "name": "Vyse",
+        "role": "Sentinel"
+    }
+]

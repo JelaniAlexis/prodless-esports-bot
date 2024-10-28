@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Duelist"
+    },
+    {
+        "id": 2,
+        "name": "Initiator"
+    },
+    {
+        "id": 3,
+        "name": "Controller"
+    },
+    {
+        "id": 4,
+        "name": "Sentinel"
+    },
+    {
+        "id": 5,
+        "name": "Flex"
+    }
+]

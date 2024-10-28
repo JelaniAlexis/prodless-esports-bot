@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "mapName": "Ascent",
+        "teamComposition": [
+            {
+                "player": 1,
+                "agents": [12]
+            },
+            {
+                "player": 2,
+                "agents": [5]
+            },
+            {
+                "player": 3,
+                "agents": [19]
+            },
+            {
+                "player": 4,
+                "agents": [4]
+            },
+            {
+                "player": 5,
+                "agents": [16]
+            }
+        ]
+    }
+]
