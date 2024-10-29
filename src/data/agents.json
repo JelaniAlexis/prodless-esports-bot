@@ -2,126 +2,126 @@
     {
         "id": 1,
         "name": "Breach",
-        "role": "Initiator"
+        "role": 2
     },
     {
         "id": 2,
         "name": "Brimstone",
-        "role": "Controller"
+        "role": 3
     },
     {
         "id": 3,
         "name": "Cypher",
-        "role": "Sentinel"
+        "role": 4
     },
     {
         "id": 4,
         "name": "Jett",
-        "role": "Duelist"
+        "role": 1
     },
     {
         "id": 5,
         "name": "Omen",
-        "role": "Controller"
+        "role": 3
     },
     {
         "id": 6,
         "name": "Phoenix",
-        "role": "Duelist"
+        "role": 1
     },
     {
         "id": 7,
         "name": "Raze",
-        "role": "Duelist"
+        "role": 1
     },
     {
         "id": 8,
         "name": "Sage",
-        "role": "Sentinel"
+        "role": 4
     },
     {
         "id": 9,
         "name": "Sova",
-        "role": "Initiator"
+        "role": 2
     },
     {
         "id": 10,
         "name": "Viper",
-        "role": "Controller"
+        "role": 3
     },
     {
         "id": 11,
         "name": "Reyna",
-        "role": "Duelist"
+        "role": 1
     },
     {
         "id": 12,
         "name": "Killjoy",
-        "role": "Sentinel"
+        "role": 4
     },
     {
         "id": 13,
         "name": "Skye",
-        "role": "Initiator"
+        "role": 2
     },
     {
         "id": 14,
         "name": "Yoru",
-        "role": "Duelist"
+        "role": 1
     },
     {
         "id": 15,
         "name": "Astra",
-        "role": "Controller"
+        "role": 3
     },
     {
         "id": 16,
         "name": "KAY/O",
-        "role": "Controller"
+        "role": 2
     },
     {
         "id": 17,
         "name": "Chamber",
-        "role": "Sentinel"
+        "role": 4
     },
     {
         "id": 18,
         "name": "Neon",
-        "role": "Duelist"
+        "role": 1
     },
     {
         "id": 19,
         "name": "Fade",
-        "role": "Initiator"
+        "role": 2
     },
     {
         "id": 20,
         "name": "Harbor",
-        "role": "Controller"
+        "role": 3
     },
     {
         "id": 21,
         "name": "Gekko",
-        "role": "Initiator"
+        "role": 2
     },
     {
         "id": 22,
         "name": "Deadlock",
-        "role": "Sentinel"
+        "role": 4
     },
     {
         "id": 23,
         "name": "Iso",
-        "role": "Duelist"
+        "role": 1
     },
     {
         "id": 24,
         "name": "Clove",
-        "role": "Controller"
+        "role": 3
     },
     {
         "id": 25,
         "name": "Vyse",
-        "role": "Sentinel"
+        "role": 4
     }
 ]

@@ -24,7 +24,7 @@ const command: ClientCommand = {
         }
 
         const embed = new EmbedBuilder()
-        .setTitle("Resources for Prodless Esports")
+        .setTitle("Resources")
         .setFields(fields)
         .setColor("#8f2fcf");
 

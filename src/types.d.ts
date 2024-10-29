@@ -27,3 +27,31 @@ type Resource = {
     note?: string
     emoji: string
 }
+
+type PlayerData = {
+    id: number
+    name: string
+    discordId: string
+    riotId: string
+    active: boolean
+    rank: number
+    roles: number[]
+    agents: number[]
+}
+
+type Rank = {
+    id: number,
+    name: string,
+    iconEmoji: string
+}
+
+type Role = {
+    id: number,
+    name: string
+}
+
+type Agent = {
+    id: number,
+    name: string
+    role: number
+}

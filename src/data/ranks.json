@@ -1,0 +1,132 @@
+[
+    {
+        "id": 0,
+        "name": "Unranked",
+        "iconEmoji": "<:rank0_unranked:1300589559746134117>"
+    },
+    {
+        "id": 1,
+        "name": "Iron 1",
+        "iconEmoji": "<:rank1_iron1:1300589847420866640>"
+    },
+    {
+        "id": 2,
+        "name": "Iron 2",
+        "iconEmoji": "<:rank2_iron2:1300590722269057066>"
+    },
+    {
+        "id": 3,
+        "name": "Iron 3",
+        "iconEmoji": "<:rank3_iron3:1300590840519065690>"
+    },
+    {
+        "id": 4,
+        "name": "Bronze 1",
+        "iconEmoji": "<:rank4_bronze1:1300590974594191493>"
+    },
+    {
+        "id": 5,
+        "name": "Bronze 2",
+        "iconEmoji": "<:rank5_bronze2:1300590984664580126>"
+    },
+    {
+        "id": 6,
+        "name": "Bronze 3",
+        "iconEmoji": "<:rank6_bronze3:1300590991861878865>"
+    },
+    {
+        "id": 7,
+        "name": "Silver 1",
+        "iconEmoji": "<:rank7_silver1:1300591221009285141>"
+    },
+    {
+        "id": 8,
+        "name": "Silver 2",
+        "iconEmoji": "<:rank8_silver2:1300591228781596692>"
+    },
+    {
+        "id": 9,
+        "name": "Silver 3",
+        "iconEmoji": "<:rank9_silver3:1300591235458666602>"
+    },
+    {
+        "id": 10,
+        "name": "Gold 1",
+        "iconEmoji": "<:rank10_gold1:1300591480536174755>"
+    },
+    {
+        "id": 11,
+        "name": "Gold 2",
+        "iconEmoji": "<:rank11_gold2:1300591488148832296>"
+    },
+    {
+        "id": 12,
+        "name": "Gold 3",
+        "iconEmoji": "<:rank12_gold3:1300591495031816244>"
+    },
+    {
+        "id": 13,
+        "name": "Platinum 1",
+        "iconEmoji": "<:rank13_platinum1:1300591658412281927>"
+    },
+    {
+        "id": 14,
+        "name": "Platinum 2",
+        "iconEmoji": "<:rank14_platinum2:1300591665047801897>"
+    },
+    {
+        "id": 15,
+        "name": "Platinum 3",
+        "iconEmoji": "<:rank15_platinum3:1300591671733653564>"
+    },
+    {
+        "id": 16,
+        "name": "Diamond 1",
+        "iconEmoji": "<:rank16_diamond1:1300591895709225051>"
+    },
+    {
+        "id": 17,
+        "name": "Diamond 2",
+        "iconEmoji": "<:rank17_diamond2:1300591905884864684>"
+    },
+    {
+        "id": 18,
+        "name": "Diamond 3",
+        "iconEmoji": "<:rank18_diamond3:1300591912247496725>"
+    },
+    {
+        "id": 19,
+        "name": "Ascendant 1",
+        "iconEmoji": "<:rank19_ascendant1:1300591921093279826>"
+    },
+    {
+        "id": 20,
+        "name": "Ascendant 2",
+        "iconEmoji": "<:rank20_ascendant2:1300591927925932042>"
+    },
+    {
+        "id": 21,
+        "name": "Ascendant 3",
+        "iconEmoji": "<:rank21_ascendant3:1300591937031639102>"
+    },
+    {
+        "id": 22,
+        "name": "Immortal 1",
+        "iconEmoji": "<:rank22_immortal1:1300591946015834245>"
+    },
+    {
+        "id": 23,
+        "name": "Immortal 2",
+        "iconEmoji": "<:rank23_immortal2:1300591955012751491>"
+    },
+    {
+        "id": 24,
+        "name": "Immortal 3",
+        "iconEmoji": "<:rank24_immortal3:1300591962658967760>"
+    },
+    {
+        "id": 25,
+        "name": "Radiant",
+        "iconEmoji": "<:rank25_radiant:1300591971135520859>"
+    }
+]

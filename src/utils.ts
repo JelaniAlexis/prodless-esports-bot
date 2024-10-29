@@ -22,6 +22,6 @@ export const getInteractionTypes = (): ClientInteraction[] => {
     const interactionFiles = readdirSync(interactionsPath).filter((file: string) => file.endsWith('.ts'));
     const interactions = interactionFiles.map(fileName => require(join(interactionsPath, fileName))['default']);
     return interactions;
-}
+};
 
 export const globalCommands: Collection<string, ClientCommand> = new Collection();
