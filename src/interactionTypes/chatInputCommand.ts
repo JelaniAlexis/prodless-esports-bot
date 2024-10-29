@@ -1,6 +1,6 @@
 import { ChatInputCommandInteraction } from "discord.js";
 import { ClientInteraction } from "../types";
-import { globalCommands } from "../utils";
+import { globalCommands } from "../fileParser";
 
 const clientInteraction: ClientInteraction = {
     condition: (interaction: ChatInputCommandInteraction) => interaction.isChatInputCommand(),

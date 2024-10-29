@@ -1,6 +1,7 @@
-import { getCommands } from "./utils";
+import { getFolderDefaults } from "./fileParser";
 import { REST, RESTPostAPIChatInputApplicationCommandsJSONBody, Routes } from 'discord.js';
 import "dotenv/config"
+import { ClientCommand } from "./types";
 
 if (process.argv.length == 2) throw new Error("No arguments passed in command line");
 
@@ -13,7 +14,7 @@ const guildId = process.argv[3]
 
 if (scope === "guild" || scope === "global") {
     const commandsToPush: RESTPostAPIChatInputApplicationCommandsJSONBody[] = [];
-    const commands = getCommands();
+    const commands: ClientCommand[] = getFolderDefaults('commands');
     for (let i = 0; i < commands.length; i++) {
         const command = commands[i];
         if (!command.data.name) throw new SyntaxError(`Command at index ${i - 1} is missing a name.`);

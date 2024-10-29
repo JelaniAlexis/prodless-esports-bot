@@ -1,30 +1,18 @@
-import { ActionRowBuilder, ButtonBuilder, ButtonStyle, ChatInputCommandInteraction, CollectorFilter, ComponentType, EmbedBuilder, SlashCommandBuilder } from "discord.js";
+import { ActionRowBuilder, ButtonBuilder, ButtonStyle, ChatInputCommandInteraction, ComponentType, EmbedBuilder, SlashCommandBuilder } from "discord.js";
 import { Agent, ClientCommand, PlayerData, Rank, Role } from "../types";
-import { join } from "path";
-import { readFileSync } from "fs";
+import { getDataJSON } from "../fileParser";
 
 const command: ClientCommand = {
     data: new SlashCommandBuilder()
     .setName('players')
     .setDescription("Displays the team's players' stats."),
     execute: async (interaction: ChatInputCommandInteraction) => {
-        const dataFolder = join(__dirname, "../data");
-        
-        const playerDataPath = `${dataFolder}/players.json`;
-        const playerDataFile = readFileSync(playerDataPath, "utf-8");
-        const playerData: PlayerData[] = JSON.parse(playerDataFile);
-        
-        const ranksPath = `${dataFolder}/ranks.json`;
-        const ranksFile = readFileSync(ranksPath, "utf-8");
-        const ranks: Rank[] = JSON.parse(ranksFile);
-        
-        const rolesPath = `${dataFolder}/roles.json`;
-        const rolesFile = readFileSync(rolesPath, "utf-8");
-        const roles: Role[] = JSON.parse(rolesFile);
+        const LISTEN_TIME = 120_000; // Time in milliseconds in which the command is able to listen for collector interactions
 
-        const agentsPath = `${dataFolder}/agents.json`;
-        const agentsFile = readFileSync(agentsPath, "utf-8");
-        const agents: Agent[] = JSON.parse(agentsFile);
+        const playerData: PlayerData[] = getDataJSON('players');
+        const ranks:      Rank[]       = getDataJSON('ranks');
+        const roles:      Role[]       = getDataJSON('roles');
+        const agents:     Agent[]      = getDataJSON('agents');
 
         let currentIndex = 0;
 
@@ -32,12 +20,12 @@ const command: ClientCommand = {
             const currentPlayerData = playerData[currentIndex];
             const currentPlayerRank = ranks[currentPlayerData.rank];
             const currentPlayerRoles: string[] = [];
+            const currentPlayerAgents: string[] = [];
 
             for (let i = 0; i < currentPlayerData.roles.length; i++) {
                 const roleToPush = roles.find(role => currentPlayerData.roles[i] == role.id);
                 if (roleToPush) currentPlayerRoles.push(roleToPush.name);
             }
-            const currentPlayerAgents: string[] = [];
             for (let i = 0; i < currentPlayerData.agents.length; i++) {
                 const agentToPush = agents.find(agent => currentPlayerData.agents[i] == agent.id);
                 if (agentToPush) currentPlayerAgents.push(agentToPush.name);
@@ -94,10 +82,8 @@ const command: ClientCommand = {
 
         const response = await interaction.reply(assembleMessage());
 
-        const time = 120_000;
-
         try {
-            const collector = response.createMessageComponentCollector({ componentType: ComponentType.Button, time });
+            const collector = response.createMessageComponentCollector({ componentType: ComponentType.Button, time: LISTEN_TIME });
 
             collector.on('collect', async i => {
                 if (i.user.id !== interaction.user.id) return;
